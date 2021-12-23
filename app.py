@@ -16,7 +16,7 @@ one_hot = pickle.load(infile)
 model=open('RF.pkl','rb')
 rf=pickle.load(model)
 
-st.header('Predicting Price')
+st.header('Predicting House Price in Mumbai')
 
 st.markdown("#### Location")
 Location = st.selectbox('Select Location',("Andheri","Bandra","Borivali","Chembur","Dadar","Powai","South Mumbai","Thane"))
