@@ -93,6 +93,10 @@ if button:
                 st.success(f"The Minimum Cost Expecteed with the above Facilities is : {cost1} Cr-{cost2} Cr")
             elif cost1 == cost2:
                 st.success(f"The Minimum Cost Expecteed with the above Facilities is : {cost1} Cr")
+                
+            elif cost1<cost2:
+                st.success(f"The Minimum Cost Expecteed with the above Facilities is : {cost1} Cr-{cost2} Cr")
+                
         
 
 
