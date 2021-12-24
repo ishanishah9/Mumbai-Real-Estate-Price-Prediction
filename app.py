@@ -34,13 +34,13 @@ st.markdown("#### Lift")
 Lift = st.radio("Does the building have a Lift? ", ('Yes', 'No'))
 
 st.markdown("#### Parking")
-Parking = st.radio("Does the Building have a Parking'", ('Yes', 'No'))
+Parking = st.radio("Does the Building have a Parking?", ('Yes', 'No'))
 
 st.markdown("#### Playing Area")
-Playground= st.radio("Does the Building have a Playing area for kids'", ('Yes', 'No'))
+Playground= st.radio("Does the Building have a Playing area for kids?", ('Yes', 'No'))
 
 st.markdown("#### Club House")
-Club_house=st.radio("Does the Building have a Club house'", ('Yes', 'No'))
+Club_house=st.radio("Does the Building have a Club house?", ('Yes', 'No'))
 
 button=st.button('Predict')
 
